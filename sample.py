@@ -5,7 +5,8 @@ app = Flask(__name__)
 # Sample data - you can replace this with your actual data source
 books = [
     {"id": 1, "title": "Python Programming", "author": "John Smith"},
-    {"id": 2, "title": "Java Basics", "author": "Jane Doe"}
+    {"id": 2, "title": "Java Basics", "author": "Jane Doe"},
+    {"id": 3, "title": "Advance Java", "author": "Jane Doe"}
 ]
 
 # Define a route for handling GET requests
